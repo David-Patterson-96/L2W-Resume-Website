@@ -11028,3 +11028,7 @@ footer{
 	color: #FFB600;
 	background-color: #FF7600;
 }
+
+iframe {
+    object-fit: contain;
+}
