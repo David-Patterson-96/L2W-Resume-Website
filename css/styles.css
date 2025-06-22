@@ -575,7 +575,17 @@ progress {
   max-width: 100%;
   height: auto;
 }
+/*Test styles for mobile display of figma and vimeo elements*/
+.figma-fluid{
+  max-width: 100%;
+  height: auto;
+}
 
+.vimeo-fluid{
+  max-width: 100%;
+  height: auto;
+}
+/*End of Test Sytles*/
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
