@@ -575,17 +575,7 @@ progress {
   max-width: 100%;
   height: auto;
 }
-/*Test styles for mobile display of figma and vimeo elements*/
-.figma-fluid{
-  max-width: 400px;
-  height: 100%;
-}
 
-.vimeo-fluid{
-  max-width: 400px;
-  height: 100%;
-}
-/*End of Test Sytles*/
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11050,3 +11040,17 @@ iframe {
     margin-left: 10px;
     margin-bottom: 10px;
 }
+
+/*Test styles for mobile display of figma and vimeo elements*/
+@media (min-width: 992px) {
+  .figma-fluid{
+    max-width: 400px;
+    height: 100%;
+  }
+
+  .vimeo-fluid{
+    max-width: 400px;
+    height: 100%;
+  }
+}
+/*End of Test Sytles*/
