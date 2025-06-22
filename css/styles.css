@@ -577,13 +577,13 @@ progress {
 }
 /*Test styles for mobile display of figma and vimeo elements*/
 .figma-fluid{
-  max-width: 100%;
-  height: auto;
+  max-width: auto;
+  height: 100%;
 }
 
 .vimeo-fluid{
-  max-width: 100%;
-  height: auto;
+  max-width: auto;
+  height: 100%;
 }
 /*End of Test Sytles*/
 .img-thumbnail {
