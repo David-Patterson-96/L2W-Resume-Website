@@ -11042,15 +11042,15 @@ iframe {
 }
 
 /*Test styles for mobile display of figma and vimeo elements*/
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .figma-fluid{
-    max-width: 400px;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
   }
 
   .vimeo-fluid{
-    max-width: 400px;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
   }
 }
 /*End of Test Sytles*/
