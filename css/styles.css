@@ -11041,7 +11041,7 @@ iframe {
     margin-bottom: 10px;
 }
 
-/*Test styles for mobile display of figma and vimeo elements*/
+/*Test styles for mobile display of figma and vimeo elements
 @media (max-width: 992px) {
   .figma-fluid{
     max-width: 100%;
@@ -11052,5 +11052,5 @@ iframe {
     max-width: 100%;
     height: auto;
   }
-}
+}*/
 /*End of Test Sytles*/
