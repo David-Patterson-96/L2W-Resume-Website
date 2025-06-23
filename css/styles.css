@@ -10968,7 +10968,12 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #FF7600;
+  background-color: #5C07AC;
+  color: #E6CFFC;
+}
+.social-icons .social-icon:focus-visible {
+  background-color: #E6CFFC;
+  color: #5C07AC;
 }
 
 .dev-icons {
