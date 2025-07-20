@@ -11051,14 +11051,14 @@ iframe {
     margin-bottom: 10px;
 }
 
-/*Test styles for mobile display of figma and vimeo elements*/
+/*Test styles for mobile display of figma and vimeo elements
 @media (max-width: 992px) {
 .vertical_poster_size{
   height: 380px;
   width: 577px;
 }  
 	
-/*.figma-fluid{
+  .figma-fluid{
     max-width: 100%;
     height: auto;
   }
