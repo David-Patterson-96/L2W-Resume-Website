@@ -11065,9 +11065,17 @@ iframe {
    height: 591px;	
 }
 
+/*Test styles for mobile display of YouTube elements*/
+@media (max-width: 1400px) {
+  .youtube-fluid{
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 /*Test styles for mobile display of figma elements*/
 @media (max-width: 992px) {
-  .figma-fluid, .youtube-fluid{
+  .figma-fluid{
     max-width: 100%;
     height: auto;
   }
