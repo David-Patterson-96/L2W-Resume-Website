@@ -11055,6 +11055,10 @@ iframe {
    width: 640px;
    height: 360px;
 }
+.youtube-fluid{
+   width: 400px;
+   height: 350px;
+}
 
 /*Test styles for mobile display of figma elements*/
 @media (max-width: 992px) {
@@ -11066,6 +11070,13 @@ iframe {
 /*Test styles for mobile display of vimeo elements*/
 @media (max-width: 650px) {
   .vimeo-fluid{
+    max-width: 100%;
+    height: auto;
+  }
+}
+/*Test styles for mobile display of vimeo elements*/
+@media (max-width: 400px) {
+  .youtube-fluid{
     max-width: 100%;
     height: auto;
   }
