@@ -11065,14 +11065,6 @@ iframe {
    height: 591px;	
 }
 
-/*Test styles for mobile display of YouTube elements*/
-@media (max-width: 1050px) {
-  .youtube-fluid{
-    max-width: 100%;
-    height: auto;
-  }
-}
-
 /*Test styles for mobile display of figma elements*/
 @media (max-width: 992px) {
   .figma-fluid{
@@ -11087,9 +11079,9 @@ iframe {
     height: auto;
   }
 }
-/*Test styles for mobile display of vimeo elements*/
+/*Test styles for mobile display of YouTube and large picture elements*/
 @media (max-width: 430px) {
-  .vertical_poster_size{
+  .youtube-fluid, .vertical_poster_size{
     max-width: 100%;
     height: auto;
   }
