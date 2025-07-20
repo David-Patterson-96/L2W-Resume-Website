@@ -11030,6 +11030,11 @@ footer{
   border: thick solid #FF7600;
 }
 
+.vertical_poster_size{
+  height: 389px;
+  width: 591px;
+}
+
 .nav-item:hover {
 	color: #FFB600;
 	/*background-color: #FF7600;*/
@@ -11046,9 +11051,14 @@ iframe {
     margin-bottom: 10px;
 }
 
-/*Test styles for mobile display of figma and vimeo elements
+/*Test styles for mobile display of figma and vimeo elements*/
 @media (max-width: 992px) {
-  .figma-fluid{
+.vertical_poster_size{
+  height: 380px;
+  width: 577px;
+}  
+	
+/*.figma-fluid{
     max-width: 100%;
     height: auto;
   }
