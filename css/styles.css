@@ -11060,6 +11060,11 @@ iframe {
    height: 350px;
 }
 
+.vertical_poster_size{
+   width: 389px; 
+   height: 591px;	
+}
+
 /*Test styles for mobile display of figma elements*/
 @media (max-width: 992px) {
   .figma-fluid{
