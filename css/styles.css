@@ -11064,7 +11064,7 @@ iframe {
   }
 }
 /*Test styles for mobile display of vimeo elements*/
-@media (max-width: 640px) {
+@media (max-width: 650px) {
   .vimeo-fluid{
     max-width: 100%;
     height: auto;
