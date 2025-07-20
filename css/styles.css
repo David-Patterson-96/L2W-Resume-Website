@@ -11046,30 +11046,28 @@ iframe {
     margin-bottom: 10px;
 }
 
+.figma-fluid{
+   width: 800px;
+   height: 450px;
+}
+
 .vimeo-fluid{
    width: 640px;
    height: 360px;
 }
 
-/*Test styles for mobile display of vimeo elements*/
-@media (max-width: 400px) {
-	
-  /*.figma-fluid{
-    max-width: 100%;
-    height: auto;
-  }/*/
-
-  .vimeo-fluid{
-    max-width: 100%;
-    height: auto;
-  }
-}
-/*Test styles for mobile display of figma and vimeo elements
+/*Test styles for mobile display of figma elements*/
 @media (max-width: 992px) {
   .figma-fluid{
     max-width: 100%;
     height: auto;
   }
-}*/
-
+}
+/*Test styles for mobile display of vimeo elements*/
+@media (max-width: 400px) {
+  .vimeo-fluid{
+    max-width: 100%;
+    height: auto;
+  }
+}
 /*End of Test Sytles*/
