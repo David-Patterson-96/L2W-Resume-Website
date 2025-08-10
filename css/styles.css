@@ -11047,7 +11047,7 @@ iframe {
 }
 /*Test style for skipnav hyperlink*/
 #skipnav{
-	left: -1000px;
+	top: -1000px;
 	text-decoration: none;
 	font-weight: 800;
     letter-spacing: 0.05rem;
@@ -11057,7 +11057,7 @@ iframe {
 	color: #FFB600;
 }
 #skipnav:focus-visible{
-	left: 0;
+	top: 0;
     color: #fff;
 	border: #fff;
 }
