@@ -3870,7 +3870,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #007FA3;
+  color: rgba (255, 255, 255, 0.85);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -11045,7 +11045,7 @@ iframe {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-/*Test style for skipnav hyperlink*/
+/*Test style for skipnav hyperlink
 #skipnav{
 	top: -1000px;
 	text-decoration: none;
@@ -11060,7 +11060,7 @@ iframe {
 	top: 0;
     color: #fff;
 	border: #fff;
-}
+}*/
 /*End of Test*/
 .webstore-thumbnail-fluid{
 	width: 400px;
