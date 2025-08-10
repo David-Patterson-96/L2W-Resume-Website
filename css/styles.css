@@ -11045,7 +11045,12 @@ iframe {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-
+/*Test style for Webstore thumbnail images*/
+.webstore-thumbnail-fluid{
+	width: 400px;
+	height: auto;
+}
+/*End of Test*/
 .figma-fluid{
    width: 800px;
    height: 450px;
