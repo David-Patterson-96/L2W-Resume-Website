@@ -11045,12 +11045,24 @@ iframe {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-/*Test style for Webstore thumbnail images*/
-.webstore-thumbnail-fluid{
-	width: 400px;
-	height: auto;
+/*Test style for skipnav hyperlink*/
+#skipnav{
+	display: none;
+	text-decoration: none;
+}
+#skipnav:hover{
+	color: #FFB600;
+}
+#skipnav:focus-visible{
+	display: inline-block;
+    color: #fff;
+	border: #fff;
 }
 /*End of Test*/
+.webstore-thumbnail-fluid{
+	width: 400px;
+}
+
 .figma-fluid{
    width: 800px;
    height: 450px;
