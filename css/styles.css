@@ -11047,14 +11047,17 @@ iframe {
 }
 /*Test style for skipnav hyperlink*/
 #skipnav{
-	display: none;
+	left: -1000px;
 	text-decoration: none;
+	font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
 }
 #skipnav:hover{
 	color: #FFB600;
 }
 #skipnav:focus-visible{
-	display: inline-block;
+	left: 0;
     color: #fff;
 	border: #fff;
 }
