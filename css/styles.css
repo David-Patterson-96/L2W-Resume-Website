@@ -11045,7 +11045,7 @@ iframe {
     margin-left: 10px;
     margin-bottom: 10px;
 }
-/*Test style for skipnav hyperlink
+/*Test style for skipnav hyperlink*/
 #skipnav{
 	top: -1000px;
 	text-decoration: none;
@@ -11053,14 +11053,11 @@ iframe {
     letter-spacing: 0.05rem;
     text-transform: uppercase;
 }
-#skipnav:hover{
-	color: #FFB600;
-}
 #skipnav:focus-visible{
 	top: 0;
     color: #fff;
 	border: #fff;
-}*/
+}
 /*End of Test*/
 .webstore-thumbnail-fluid{
 	width: 400px;
