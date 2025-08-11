@@ -11053,6 +11053,9 @@ iframe {
     letter-spacing: 0.05rem;
     text-transform: uppercase;
 }
+#skipnav:hover{
+	color: #FFB600;
+}
 #skipnav:focus-visible{
 	top: 0;
     color: #fff;
