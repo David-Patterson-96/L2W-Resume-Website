@@ -1,0 +1,369 @@
+<!-- David Patterson's Resume Webpage-->
+<!-- Created by David Patterson on 9-16-2025-->
+<!-- Last updated by David Patterson on 9-16-2025-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="David Patterson" />
+        <title>David Patterson Resume</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <!--<a id="skipnav" class="nav-item nav-link" href="#main" target="_self">Skip to Main Content</a>-->
+            <a class="navbar-brand js-scroll-trigger" title="David Patterson Home" href="#page-top">
+                <span class="d-block d-lg-none">David Patterson</span>
+                <span class="d-none d-lg-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile_updated.jpg" 
+                        onMouseOver="this.src='assets/img/logo.jpg'" 
+                        onMouseOut="this.src='assets/img/profile_updated.jpg'"   alt="David Patterson" />
+                </span>
+            </a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/html/portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0" id="main">
+            <!--Portfolio-->
+            <section class="resume-section" <!--id="portfolio"-->>
+                <div class="resume-section-content">
+                    <h1 class="mb-0">Portfolio</h1>
+                    <!--Professional/Work Coding Portfolio-->
+                    <h2 class="mb-3">Professional Website Coding Projects</h2>
+                    <p class="lead mb-5">Marshal entire website production from UI design, full-stack development, hosting, and maintenance for over 50 WordPress e-commerce 
+                        sites during my <a href="#imagePointe" title="Associate Web Developer" target="_self">Associate Web Developer</a> role at Image Pointe, 
+                        supporting large international unions like Starbucks Workers United, IUPAT, UAW, and smaller local unions. Managed domain registration 
+                        with WP Engine for CI/CD deployment, DNS servers with Cloudflare, product photography, content, inventory, and monthly tax rate updates.
+                        <br>
+                        <br> 
+                        Construct a reusable website template and layouts within Oxygen Builder that feature integrated USPS/UPS APIs for real-time shipping, 
+                        automated inventory updates with WP All Import, and customizable dynamic checkout field content using Advanced Custom Fields (ACF). 
+                        Optimize assets with TinyPNG and Jetpack plug-ins and improve accessibility using WebAIM, Lighthouse, and ANDI tools to meet WCAG 2.2 
+                        Level AA and ADA standards.
+                        <br>
+                        <br>
+                        Develop custom JavaScript within the website template to inject ID attributes into WooCommerce table components (bypassing Oxygen Builder
+                        limitations) to support proper row and column scope and headers usage, improving screen reader navigation. Craft custom PHP snippets to 
+                        enable site-wide password protection, hide prices from public view while keeping them in sales reports, and trigger low-stock alert 
+                        emails featuring product images for sales staff.
+                        <br>
+                        <br>
+                        Addressing accessibility challenges—such as Starbucks Workers United’s light green and aqua colors failing the 4.5:1 contrast ratio 
+                        required for WCAG 2.2 Level AA compliance, a common issue for unions aiming to preserve inaccessibility button, link, and text/background 
+                        colors from their main websites. Resolved this by adjusting color schemes with tools like WebAIM, ensuring compliance while preserving 
+                        brand identity.
+                        <br>
+                        <br>
+                        Between my continuous improvements to the website template and using Agile sprints tools like Jira and Basecamp to help create a list of 
+                        tasks to complete upon the creation of a new webstore, I have allowed for consistently delivered, fully functional, accessible e-commerce 
+                        sites, bringing webstore completion windows from 5 days to just 12 hours.
+                    </p>
+                    <a href="https://unioncoffeegear.com/" title="Starbucks Workers United Merch Store" target="blank">
+                        <img src="assets/img/webstores/starbucks-workers-united-thumbnail.jpg" alt="Starbucks Workers United Merch Store" 
+                        id="overlay" loading="lazy" class="webstore-thumbnail-fluid img-fluid img_placement"/>
+                    </a>
+                    <a href="https://iupat.unionwebstores.com/" title="IUPAT International Online Store" target="blank">
+                        <img src="assets/img/webstores/iupat-international-thumbnail.jpg" alt="IUPAT International Online Store" 
+                        id="overlay" loading="lazy" class="webstore-thumbnail-fluid img-fluid img_placement"/>
+                    </a>
+                    <a href="https://nteu.unionwebstores.com/" title="NTEU Online Store" target="blank">
+                        <img src="assets/img/webstores/netu-thumbnail.jpg" alt="NTEU Online Store" 
+                        id="overlay" loading="lazy" class="webstore-thumbnail-fluid img-fluid img_placement"/>
+                    </a>
+                    <a href="https://neawebstore.org/" title="NEA Member Store" target="blank">
+                        <img src="assets/img/webstores/nea-thumbnail.jpg" alt="NEA Member Store" 
+                        id="overlay" loading="lazy" class="webstore-thumbnail-fluid img-fluid img_placement"/>
+                    </a>
+                    <a href="https://store.uaw.org/" title="UAW International Online Store" target="blank">
+                        <img src="assets/img/webstores/uaw-international-thumbnail.jpg" alt="UAW International Online Store" 
+                        id="overlay" loading="lazy" class="webstore-thumbnail-fluid img-fluid img_placement"/>
+                    </a>
+                    <a href="https://afl-cio.unionwebstores.com/" title="AFL-CIO Union Store" target="blank">
+                        <img src="assets/img/webstores/aflcio-thumbnail.jpg" alt="AFL-CIO Union Store" 
+                        id="overlay" loading="lazy" class="webstore-thumbnail-fluid img-fluid img_placement"/>
+                    </a>
+                    <!--Original Webstore list
+                    <ol>
+                        <li>
+                            <a href="https://unioncoffeegear.com/" title="Starbucks Workers United Merch Store" target="blank">Starbucks Workers United Merch Store</a>
+                        </li>
+                        <li>
+                            <a href="https://macshop.ibew332.org/" title="IBEW Local 332 Webstore" target="blank">IBEW Local 332 Webstore</a>
+                        </li>
+                        <li>
+                            <a href="https://workersunited.unionwebstores.com/" title="Workers United Online Store" target="blank">Workers United Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://nmp.unionwebstores.com/" title="PASS New Member Online Store" target="blank">PASS New Member Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://iuoe211.unionwebstores.com/" title="Allied Building Inspectors IUOE 211 Online Store" target="blank">Allied Building Inspectors IUOE 211 Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://teamsters177.unionwebstores.com/" title="Teamsters Local 177 Online Store" target="blank">Teamsters Local 177 Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://ualocal23.unionwebstores.com/" title="UA Local 23 Online Merch Store" target="blank">UA Local 23 Online Merch Store</a>
+                        </li>
+                        <li>
+                            <a href="https://iupat.unionwebstores.com/" title="IUPAT International Online Store" target="blank">IUPAT International Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://nteu.unionwebstores.com/" title="NTEU Online Store" target="blank">NTEU Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://opeiu.unionwebstores.com/" title="OPEIU Online Store" target="blank">OPEIU Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://pass.unionwebstores.com/" title="PASS Online Store" target="blank">PASS Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://ua33.unionwebstores.com/" title="UA Local 33 Online Store" target="blank">UA Local 33 Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://ualocal469.unionwebstores.com/" title="UA Local 469 Merch Store" target="blank">UA Local 469 Merch Store</a>
+                        </li>
+                        <li>
+                            <a href="https://ironworkers433.unionwebstores.com/" title="Iron Workers Local #433 Store" target="blank">Iron Workers Local #433 Store</a>
+                        </li>
+                        <li>
+                            <a href="https://iatse122.unionwebstores.com/" title="IATSE 122 Merch Store" target="blank">IATSE 122 Merch Store</a>
+                        </li>
+                        <li>
+                            <a href="https://iuec.unionwebstores.com/" title="IUEC Online Store" target="blank">IUEC Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://ua24webstore.unionwebstores.com/" title="UA Local 24 Store" target="blank">UA Local 24 Store</a>
+                        </li>
+                        <li>
+                            <a href="https://store.seiu1000.org/" title="SEIU Local 1000 Online Store" target="blank">SEIU Local 1000 Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://ua669.unionwebstores.com/" title="UA 669 Online Store" target="blank">UA 669 Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://betabilitarian.unionwebstores.com/" title="Betabilitarian Online Store" target="blank">Betabilitarian Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://local155store.unionwebstores.com/" title="Iron Workers Local 155 Online Store" target="blank">Iron Workers Local 155 Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://neawebstore.org/" title="NEA Member Store" target="blank">NEA Member Store</a>
+                        </li>
+                        <li>
+                            <a href="https://store.uaw.org/" title="UAW International Online Store" target="blank">UAW International Online Store</a>
+                        </li>
+                        <li>
+                            <a href="https://afl-cio.unionwebstores.com/" title="AFL-CIO Union Store" target="blank">AFL-CIO Union Store</a>
+                        </li>
+                        <li>
+                            <a href="https://32bjmember.unionwebstores.com/" title="SEIU 32BJ Online Store" target="blank">SEIU 32BJ Online Store</a>
+                        </li>
+                        <!--<li>
+                            <a href="" title="" target="blank"></a>
+                        </li>
+                    </ol>-->
+                    <!--College and Personal Coding Projects
+                    <h3 class="mb-3">College & Personal Websites & Coding Projects</h3>
+                    <a href="https://david-patterson-96.github.io/Portfolio-project/" title="Derderct: Halo Fan Website" target="blank">
+                        <img src="assets/img/didact_banner.jpg" alt="Derderct: Halo Fan Website" width="767" height="116" 
+                        id="overlay" loading="lazy" class="img-fluid img_placement"/>
+
+                    <a href="https://codepen.io/Gojisaurus/pen/RwGNKKd" title="Survey Form" target="_blank">
+                        <img src="assets/img/survey_form.jpg" alt="Survey Form" id="overlay" loading="lazy" class="img_placement"/>
+                    </a>
+                    <a href="https://codepen.io/Gojisaurus/pen/eYdmvZL" title="Technical Documentation Page" target="_blank">
+                        <img src="assets/img/technical_documentation_page.jpg" alt="Technical Documentation Page" id="overlay" 
+                        loading="lazy" class="img_placement"/>
+                    </a>
+                    <br>
+                    <br>-->
+                    <!--Professional UX/UI Design Portfolio-->
+                    <h2 class="mb-3">Professional UX/UI Prototypes</h2>
+                        <p>Designed UX/UI homepage prototypes within Figma to show union clients how their sites could look on Image Pointe's WordPress platform. 
+                            Completed in 2–4 hours, each prototype integrates layout, visual design, and branding research to engage target audiences 
+                            and drive contract acquisition. Most clients become long-term partners after viewing a prototype.
+                        </p>
+                        <!--Create a CSS style that sets Figma iframe sizes to width="370" and height="323" for better Mobile displays--> 
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="figma-fluid" title="32BJ SEIU Staff Store Home Page Mockup"
+                        src="https://embed.figma.com/design/r1jEcFifBMaGHpWzIWe23n/32BJ-Staff-Store-Mockup--Products-?node-id=0-1&embed-host=share" 
+                        allowfullscreen>
+                    </iframe>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="figma-fluid" title="NTEU Online Store Home Page Mockup"
+                        src="https://embed.figma.com/design/qXbI6HbqphtlVIt99ZajKb/NTEU-Mockup?embed-host=share" allowfullscreen>
+                    </iframe>
+                    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="figma-fluid" title="WorkingClassAF Online Store Home Page Mockup"
+                        src="https://embed.figma.com/design/hbzO7qzCqbpKVgePcoNYK6/WorkingClassAF-Mockup?embed-host=share" allowfullscreen>    
+                    </iframe>
+                    <br>
+                    <br>
+                    <!--Video Portfolio-->
+                    <h2 class="mb-3">Professional Video Projects</h2>
+                        <p>Created video projects with Pearson under the <a href="#pearson" title="Apprentice, I&O Cloud Engineering" target="_self">Apprentice, I&O Cloud Engineering</a> 
+                            role. Wrote scripts, filmed footage, conducted interviews, and edited video and audio using Adobe Premiere Pro, Photoshop, 
+                            and Audacity. Produced compelling stories to promote internal initiatives. Notably, the <i>Learning2Work Pathfinders 
+                            Apprenticeship Recruitment</i> video <b>directly led to 14 new hires</b>.
+                        </p>
+                        <!--Create a CSS style that sets Vimeo iframe video sizes to width="370" and height="289" for better Mobile displays--> 
+                    <iframe class="vimeo-fluid"
+                        src="https://player.vimeo.com/video/779651012?h=801d1667ee" title="Pearson Learning2Work Pathfinders Recruitment Video"
+                        frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+                    </iframe>
+                    <iframe class="vimeo-fluid" 
+                        src="https://player.vimeo.com/video/787661933?h=a6e0030c64" title="She’sGotTech Commercial" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                    <iframe class="vimeo-fluid"
+                        src="https://player.vimeo.com/video/782978989?h=36216be4b1" title="Girls Can Do Anything - Summer 2022 Camp" 
+                        frameborder="0" allowfullscreen>
+                    </iframe>
+                    <br>
+                    <!--YouTube Videos-->
+                        <h2 class="mb-3">Personal Video Projects</h2>
+                        <p>Edited personal video projects using Adobe Premiere Pro and Photoshop, including cinematic trailers, TV-style commercials, 
+                            music videos, and restorations of canceled $48 million film projects. The most popular video, the 
+                            <a href="https://www.youtube.com/watch?v=LyLVceTXx6s"><i>Godzilla: King of the Monsters music video</i></a>, created entirely 
+                            from pre-release public footage, has earned <b>nearly 2 million views</b> on YouTube.
+                            <br>
+                            <br>
+                            The most challenging project was restoring the canceled CGI film for <i>Jeff Wayne's Musical Version of The War of the Worlds</i>. 
+                            This involved contacting original production staff to verify authentic footage, distinguishing it from material made for the 
+                            2005 album re-release, and meticulously stitching together fragmented animation tests, such as a Martian tripod walk cycle from 
+                            three separate clips, into seamless, accurate sequences.  
+                        </p>
+                        <!--Create a CSS style that sets YouTube iframe video sizes to width="370" and height="323" for better Mobile displays--> 
+                    <iframe class="youtube-fluid"
+                        src="https://www.youtube.com/embed/videoseries?si=OVuT-LTDjfbi9uiW&amp;list=PLPYqMN5r-t3hDvIEYtjIl4Md1gKchoL0u" 
+                        title="Halo Video Project Playlist YouTube Video Player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <iframe class="youtube-fluid"
+                        src="https://www.youtube.com/embed/videoseries?si=JVvyl46HZj3nxnX0&amp;list=PLPYqMN5r-t3i2X0LWxq32Tp9VzOLz5ixt" 
+                        title="Godzilla: King of the Monsters (2019) Video Project Playlist YouTube Video Player" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <!--Commment out other YouTube Videos to test out YouTube Playlist embebed
+                    <iframe class="youtube-fluid"
+                        src="https://www.youtube.com/embed/p4jNTTvsmfI" title="Over the Ark | Halo 3: 15th Anniversary Trailer" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <iframe class="youtube-fluid"
+                        src="https://www.youtube.com/embed/44ce_D3kqXM" title="Finish the Fight | 20 Years of Halo" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <iframe class="youtube-fluid" 
+                        src="https://www.youtube.com/embed/LyLVceTXx6s" title="Go Go Godzilla (2019)" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <iframe class="youtube-fluid" 
+                        src="https://www.youtube.com/embed/Tej20e0GpQ0" title="Halo 4 - Live and Die (Godzilla: The Planet Eater)" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <iframe class="youtube-fluid" 
+                        src="https://www.youtube.com/embed/-Px15dPAY38" title="Titan Alpha (Godzilla: King of the Monsters Fan-Made TV Spot)" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <iframe class="youtube-fluid" 
+                        src="https://www.youtube.com/embed/-t_WxLfsORw" title="Monster Zero (Godzilla: King of the Monsters Fan-Made TV Spot)" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                             class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <iframe class="youtube-fluid" 
+                        src="https://www.youtube.com/embed/J57dO9oUZdo" title="One Born in Fire (Godzilla: King of the Monsters Fan-Made TV Spot)" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <iframe class="youtube-fluid"
+                        src="https://www.youtube.com/embed/qkkfj66s9Bk" title="Queen of the Monsters (Godzilla: King of the Monsters Fan-Made TV Spot)" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>-->
+                        
+                    <iframe class="youtube-fluid"
+                        src="https://www.youtube.com/embed/VQu0bE15tlQ?si=G-EUt3vSWViRfgwy" 
+                            title="Jeff Wayne's The War of the Worlds CGI Film (2005) - Animation & Concept Art" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <iframe class="youtube-fluid"
+                        src="https://www.youtube.com/embed/6hU3WMtOzbI?si=zkyyOOGANjupqFbx" 
+                            title="Jeff Wayne's The War of the Worlds - Miscellaneous CGI Animation (2005)" 
+                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            class="iframe_placement" allowfullscreen>
+                    </iframe>
+                    <br>
+                    <br>
+                    <!--Artwork Portfolio-->
+                    <h2 class="mb-3" id="artwork">Artwork</h2>
+                        <!--Create a CSS style that sets vertical poster artwork picture sizes to width="380" and height="577" for better Mobile displays--> 
+                        <a href="assets/img/portfolio/Godzilla_KotM_Rising_Sun_Poster.jpg" title="Godzilla_Poster_1" target="_self">
+                            <img src="assets/img/portfolio/Godzilla_KotM_Rising_Sun_Poster.jpg" alt="Godzilla_rising_sun_poster" 
+                             id="overlay" loading="lazy" class="img_placement vertical_poster_size"/>
+                        </a>
+                        <a href="assets/img/portfolio/Godzilla_KotM_Clash_of_Titans_Poster.jpg" title="Godzilla_Poster_2" target="_self">
+                            <img src="assets/img/portfolio/Godzilla_KotM_Clash_of_Titans_Poster.jpg" alt="Rodan_Mothra_King_Ghidorah_poster"
+                             id="overlay" loading="lazy" class="img_placement vertical_poster_size"/>
+                        </a>
+                        <!--Create a CSS style that sets horizontal poster artwork picture sizes to width="560" and height="450" for better Mobile displays--> 
+                        <a href="assets/img/portfolio/Gravemind_Toho_Style.jpg" title="Retro_Halo_2_Poster" target="_self">
+                            <img src="assets/img/portfolio/Gravemind_Toho_Style.jpg" alt="retro_monster_movie_Halo 2_poster" 
+                             width="579" height="466" id="overlay" loading="lazy" class="img-fluid img_placement horizontal_poster_size"/>
+                        </a>
+                        <a href="assets/img/portfolio/Shin_Halo.jpg" title="Halo_Infinite_Poster" target="_self">
+                            <img src="assets/img/portfolio/Shin_Halo.jpg" alt="Halo_Infinite_poster" 
+                             width="261" height="445" id="overlay" loading="lazy" class="img_placement"/>
+                        </a>
+                        <a href="assets/img/portfolio/The Fall of Reach.jpg" title="Halo_The_Fall_of_Reach_1950s_Poster" target="_self">
+                            <img src="assets/img/portfolio/The Fall of Reach.jpg" alt="retro_scifi_Halo_Fall_of_Reach_poster" 
+                             id="overlay" loading="lazy" class="img_placement vertical_poster_size"/>
+                        </a>
+                        <a href="assets/img/portfolio/The_Return_of_ODST.jpg" title="Halo_3_ODST_Poster" target="_self">
+                            <img src="assets/img/portfolio/The_Return_of_ODST.jpg" alt="Halo_3_odst_poster" 
+                             id="overlay" loading="lazy" class="img_placement vertical_poster_size"/>
+                        </a>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <footer class="footer">
+            <p class="footer">Copyright 2025<br>
+            </p>
+          </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
