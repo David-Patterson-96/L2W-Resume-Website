@@ -11022,7 +11022,7 @@ footer{
     border: thick solid #343a40;
   }
 
-#overlay:hover{
+#overlay:hover, #overlay:focus{
   margin-top: 10px;
   margin-right: 10px;
   margin-left: 10px;
