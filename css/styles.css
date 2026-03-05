@@ -11047,7 +11047,9 @@ iframe {
 }
 /*Test style for skipnav hyperlink*/
 #skipnav{
+	position: absolute;
 	top: -1000px;
+	color: #fff;
 	text-decoration: none;
 	font-weight: 800;
     letter-spacing: 0.05rem;
@@ -11057,8 +11059,7 @@ iframe {
 	color: #FFB600;
 }
 #skipnav:focus-visible{
-	top: 0;
-    color: #fff;
+	position: static;
 	border: #fff;
 }
 /*End of Test*/
