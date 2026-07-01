@@ -1,15 +1,15 @@
 <!-- David Patterson's Resume Webpage-->
-<!-- Created by David Patterson on 9-16-2025-->
-<!-- Last updated by David Patterson on 9-16-2025-->
+<!-- Created by David Patterson on 7-1-2026-->
+<!-- Last updated by David Patterson on 7-1-2026-->
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
+        <meta name="description" content="David Patterson - Web Developer and Digital Designer Portfolio" />
         <meta name="author" content="David Patterson" />
-        <title>David Patterson Resume</title>
+        <title>David Patterson - Web Developer and Digital Designer Portfolio</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
@@ -22,66 +22,48 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <!--<a id="skipnav" class="nav-item nav-link" href="#main" target="_self">Skip to Main Content</a>-->
+            <a id="skipnav" class="nav-item nav-link" href="#main" target="_self">Skip to Main Content</a>
             <a class="navbar-brand js-scroll-trigger" title="David Patterson Home" href="#page-top">
                 <span class="d-block d-lg-none">David Patterson</span>
                 <span class="d-none d-lg-block">
                     <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile_updated.jpg" 
-                        onMouseOver="this.src='assets/img/logo.jpg'" 
+                        onMouseOver="this.src='assets/img/logo2.jpg'" 
                         onMouseOut="this.src='assets/img/profile_updated.jpg'"   alt="David Patterson" />
                 </span>
             </a>
-
-
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Services & Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <!--<li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>-->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certifications</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="/html/portfolio">Portfolio</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
                 </ul>
             </div>
         </nav>
         <!-- Page Content-->
-        <div class="container-fluid p-0" id="main">
+        <main class="container-fluid p-0" id="main">
             <!--Portfolio-->
-            <section class="resume-section" <!--id="portfolio"-->>
+            <section class="resume-section" id="portfolio">
                 <div class="resume-section-content">
-                    <h1 class="mb-0">Portfolio</h1>
-                    <!--Professional/Work Coding Portfolio-->
-                    <h2 class="mb-3">Professional Website Coding Projects</h2>
-                    <p class="lead mb-5">Marshal entire website production from UI design, full-stack development, hosting, and maintenance for over 50 WordPress e-commerce 
-                        sites during my <a href="#imagePointe" title="Associate Web Developer" target="_self">Associate Web Developer</a> role at Image Pointe, 
-                        supporting large international unions like Starbucks Workers United, IUPAT, UAW, and smaller local unions. Managed domain registration 
-                        with WP Engine for CI/CD deployment, DNS servers with Cloudflare, product photography, content, inventory, and monthly tax rate updates.
-                        <br>
-                        <br> 
-                        Construct a reusable website template and layouts within Oxygen Builder that feature integrated USPS/UPS APIs for real-time shipping, 
-                        automated inventory updates with WP All Import, and customizable dynamic checkout field content using Advanced Custom Fields (ACF). 
-                        Optimize assets with TinyPNG and Jetpack plug-ins and improve accessibility using WebAIM, Lighthouse, and ANDI tools to meet WCAG 2.2 
-                        Level AA and ADA standards.
+                    <h2 class="mb-5">Portfolio</h2>
+                    <!--Professional Coding Portfolio-->
+                    <h3 class="mb-3">Web Design & Development</h3>
+                    <p>In 2023, Image Pointe managed just 11 WordPress WooCommerce websites and had not yet adopted a standardized approach to web accessibility, 
+                        limiting the scalability of its e-commerce platform. After joining the company, I developed a reusable Oxygen Builder 
+                        framework featuring integrated USPS/UPS shipping APIs, automated inventory imports, customizable checkout fields, and built-in 
+						Web Content Accessibility Guidelines (WCAG) 2.2 Level AA accessibility improvements. I also managed hosting and DNS 
+						services on Cloudflare and WP Engine, as well as performance optimization and ongoing maintenance across all client stores.
                         <br>
                         <br>
-                        Develop custom JavaScript within the website template to inject ID attributes into WooCommerce table components (bypassing Oxygen Builder
-                        limitations) to support proper row and column scope and headers usage, improving screen reader navigation. Craft custom PHP snippets to 
-                        enable site-wide password protection, hide prices from public view while keeping them in sales reports, and trigger low-stock alert 
-                        emails featuring product images for sales staff.
-                        <br>
-                        <br>
-                        Addressing accessibility challenges—such as Starbucks Workers United’s light green and aqua colors failing the 4.5:1 contrast ratio 
-                        required for WCAG 2.2 Level AA compliance, a common issue for unions aiming to preserve inaccessibility button, link, and text/background 
-                        colors from their main websites. Resolved this by adjusting color schemes with tools like WebAIM, ensuring compliance while preserving 
-                        brand identity.
-                        <br>
-                        <br>
-                        Between my continuous improvements to the website template and using Agile sprints tools like Jira and Basecamp to help create a list of 
-                        tasks to complete upon the creation of a new webstore, I have allowed for consistently delivered, fully functional, accessible e-commerce 
-                        sites, bringing webstore completion windows from 5 days to just 12 hours.
+                        As a result, the time required to launch new webstores was reduced from five days to approximately 12 hours, and the <b>SEO performance 
+						improved by 42% within a single year after implementing accessibility best practices</b>. This enabled the company to grow its e-commerce 
+						platform to more than <b>50 online stores</b> by 2025, serving international and local labor unions, including Starbucks Workers United, 
+						AFL-CIO, and UAW.
                     </p>
                     <a href="https://unioncoffeegear.com/" title="Starbucks Workers United Merch Store" target="blank">
                         <img src="assets/img/webstores/starbucks-workers-united-thumbnail.jpg" alt="Starbucks Workers United Merch Store" 
@@ -186,28 +168,16 @@
                         </li>
                         <!--<li>
                             <a href="" title="" target="blank"></a>
-                        </li>
-                    </ol>-->
-                    <!--College and Personal Coding Projects
-                    <h3 class="mb-3">College & Personal Websites & Coding Projects</h3>
-                    <a href="https://david-patterson-96.github.io/Portfolio-project/" title="Derderct: Halo Fan Website" target="blank">
-                        <img src="assets/img/didact_banner.jpg" alt="Derderct: Halo Fan Website" width="767" height="116" 
-                        id="overlay" loading="lazy" class="img-fluid img_placement"/>
-
-                    <a href="https://codepen.io/Gojisaurus/pen/RwGNKKd" title="Survey Form" target="_blank">
-                        <img src="assets/img/survey_form.jpg" alt="Survey Form" id="overlay" loading="lazy" class="img_placement"/>
-                    </a>
-                    <a href="https://codepen.io/Gojisaurus/pen/eYdmvZL" title="Technical Documentation Page" target="_blank">
-                        <img src="assets/img/technical_documentation_page.jpg" alt="Technical Documentation Page" id="overlay" 
-                        loading="lazy" class="img_placement"/>
-                    </a>
-                    <br>
-                    <br>-->
+                        </li>-->
+                    </ol>
+					<br>
+					<br>
                     <!--Professional UX/UI Design Portfolio-->
-                    <h2 class="mb-3">Professional UX/UI Prototypes</h2>
-                        <p>Designed UX/UI homepage prototypes within Figma to show union clients how their sites could look on Image Pointe's WordPress platform. 
-                            Completed in 2–4 hours, each prototype integrates layout, visual design, and branding research to engage target audiences 
-                            and drive contract acquisition. Most clients become long-term partners after viewing a prototype.
+                    <h3 class="mb-3">UX/UI Design</h3>
+                        <p>Designed UX/UI homepage prototypes in Figma to help union clients visualize their future e-commerce websites on 
+                            Image Pointe’s WordPress platform. <b>Each prototype was completed in 2–4 hours</b> and combined layout design, branding research, 
+                            and UX structure to strengthen sales presentations and support contract acquisition. These prototypes contributed to 
+                            securing long-term client relationships with organizations such as NTEU and SEIU 32BJ.
                         </p>
                         <!--Create a CSS style that sets Figma iframe sizes to width="370" and height="323" for better Mobile displays--> 
                     <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" class="figma-fluid" title="32BJ SEIU Staff Store Home Page Mockup"
@@ -222,10 +192,74 @@
                     </iframe>
                     <br>
                     <br>
-                    <!--Video Portfolio-->
-                    <h2 class="mb-3">Professional Video Projects</h2>
-                        <p>Created video projects with Pearson under the <a href="#pearson" title="Apprentice, I&O Cloud Engineering" target="_self">Apprentice, I&O Cloud Engineering</a> 
-                            role. Wrote scripts, filmed footage, conducted interviews, and edited video and audio using Adobe Premiere Pro, Photoshop, 
+					<!--Digital Accessibility Audits Portfolio-->
+                    <h3 class="mb-3">Digital Accessibility Audits</h3>
+                        <p>In early 2026, Reliable Property Solutions LLC engaged Patterson Pixel to perform a comprehensive accessibility audit of its 
+						website to evaluate conformance with Web Content Accessibility Guidelines (WCAG) 2.1 Level AA success criteria in support of ADA Title III 
+						accessibility considerations. I conducted both manual and automated testing across all seven pages of the website on desktop and mobile 
+						devices, <b>identifying 39 accessibility issues</b>. I then delivered a detailed report outlining each issue along with prioritized remediation 
+						recommendations to help the client improve accessibility, reduce barriers for users with disabilities, and align the website with 
+						recognized accessibility standards.
+                        </p>
+					<br>
+					<br>
+					<!--Business Technology Solutions Portfolio-->
+                    <h3 class="mb-3">Business Technology Solutions</h3>
+                        <p>In 2025, The Restoration Project contacted Patterson Pixel after recurring errors in their Zapier automation disrupted customer order 
+							processing between their WordPress WooCommerce website and Flodesk email marketing system. I traced the issue to the automation using 
+							product names as identifiers, which caused conflicts between similarly named products. I resolved the problem by switching the 
+							workflow to use unique Product IDs, adding error handling for existing customers in Flodesk, and creating a step-by-step technical 
+							guide to help staff manage the updated Zapier workflow. The successful project resulted in a reliable, long-term solution and an 
+							ongoing client relationship, with The Restoration Project returning for <b>two additional contracts in 2026</b>.
+                        </p>
+					<br>
+					<br>
+					<!--<p>In 2026, The Restoration Project engaged Patterson Pixel to securely transfer more than four years of email and document history for a 
+						departing staff member to a new Google Workspace account without data loss or disruption to access. I successfully migrated all 
+						22,248 emails, along with associated Google Drive documents and files, from the organization's DreamBuilder Google Workspace 
+						account to a new Google Workspace account under the Lindsay Leahy domain. The migration preserved the complete account 
+						history and was completed more than a week ahead of schedule.
+                    </p>
+					<br>
+					<br>-->
+					<!--Graphic Design Portfolio-->
+                    <h3 class="mb-3" id="artwork">Graphic Design</h3>
+						<p>Designed branded digital gift cards and promotional coupons in Canva for the 2025 e-commerce email marketing campaigns 
+                            supporting the online stores of the Service Employees International Union (SEIU) and UA Local 469. Produced polished, 
+                            web-ready assets aligned with each organization's visual identity and campaign objectives, delivering all final designs 
+                            within a <b>two-hour turnaround</b> to support on-time campaign launches.
+                        </p>
+                        <div class="canva_container">
+	                        <iframe loading="lazy" class="canva_iframe" title="SEIU Digital Gift Cards Template"
+                              src="https://www.canva.com/design/DAHDRhrdNmI/ukcrDoiQYSHLWy69CL3XhQ/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                            </iframe>
+                        </div>
+                        <div class="canva_container">
+	                        <iframe loading="lazy" class="canva_iframe" title="UA 469 Coupon Template"
+                              src="https://www.canva.com/design/DAGrLwx9j_0/2JtufK5eU4yvS2raFpKCgg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                            </iframe>
+                        </div>
+						<p>Created promotional poster concepts in Adobe Photoshop for a $2,000 art contest hosted by Warner Bros. and Legendary Entertainment 
+							in support of the 2019 film <i>Godzilla: King of the Monsters</i>. The poster concepts adhered to the contest’s creative guidelines 
+							while incorporating meaningful visual storytelling, including a minimalist design inspired by the Japanese flag and Godzilla’s 
+							cultural origins, as well as a composition featuring King Ghidorah, Rodan, and Mothra within Godzilla’s iconic dorsal plates to 
+							highlight the film’s central Titans.
+                        </p>
+                        <!--Create a CSS style that sets vertical poster artwork picture sizes to width="380" and height="577" for better Mobile displays--> 
+                        <a href="assets/img/portfolio/Godzilla_KotM_Rising_Sun_Poster.jpg" title="Godzilla_Poster_1" target="_self">
+                            <img src="assets/img/portfolio/Godzilla_KotM_Rising_Sun_Poster.jpg" alt="Godzilla_rising_sun_poster" 
+                             id="overlay" loading="lazy" class="img_placement vertical_poster_size"/>
+                        </a>
+                        <a href="assets/img/portfolio/Godzilla_KotM_Clash_of_Titans_Poster.jpg" title="Godzilla_Poster_2" target="_self">
+                            <img src="assets/img/portfolio/Godzilla_KotM_Clash_of_Titans_Poster.jpg" alt="Rodan_Mothra_King_Ghidorah_poster"
+                             id="overlay" loading="lazy" class="img_placement vertical_poster_size"/>
+                        </a>
+                        <br>
+						<br>
+                    <!--Professional Video Portfolio-->
+                    <h3 class="mb-3">Video Production</h3>
+                        <p>Created video projects during my time at <a href="#pearson" title="Pearson target="_self">Pearson</a>. 
+                            Wrote scripts, filmed footage, conducted interviews, and edited video and audio using Adobe Premiere Pro, Photoshop, 
                             and Audacity. Produced compelling stories to promote internal initiatives. Notably, the <i>Learning2Work Pathfinders 
                             Apprenticeship Recruitment</i> video <b>directly led to 14 new hires</b>.
                         </p>
@@ -243,20 +277,21 @@
                         frameborder="0" allowfullscreen>
                     </iframe>
                     <br>
-                    <!--YouTube Videos-->
-                        <h2 class="mb-3">Personal Video Projects</h2>
+                    <br>
+                    <!--YouTube Videos
+                        <h3 class="mb-3">Creative Video Projects</h3>
                         <p>Edited personal video projects using Adobe Premiere Pro and Photoshop, including cinematic trailers, TV-style commercials, 
-                            music videos, and restorations of canceled $48 million film projects. The most popular video, the 
+                            music videos, and archival restorations of canceled film projects. The most popular video, the 
                             <a href="https://www.youtube.com/watch?v=LyLVceTXx6s"><i>Godzilla: King of the Monsters music video</i></a>, created entirely 
                             from pre-release public footage, has earned <b>nearly 2 million views</b> on YouTube.
                             <br>
                             <br>
-                            The most challenging project was restoring the canceled CGI film for <i>Jeff Wayne's Musical Version of The War of the Worlds</i>. 
+                            The most challenging project was restoring the canceled $48 million budgeted CGI film for <i>Jeff Wayne's Musical Version of The War of the Worlds</i>. 
                             This involved contacting original production staff to verify authentic footage, distinguishing it from material made for the 
                             2005 album re-release, and meticulously stitching together fragmented animation tests, such as a Martian tripod walk cycle from 
                             three separate clips, into seamless, accurate sequences.  
-                        </p>
-                        <!--Create a CSS style that sets YouTube iframe video sizes to width="370" and height="323" for better Mobile displays--> 
+                        </p>-->
+                        <!--Create a CSS style that sets YouTube iframe video sizes to width="370" and height="323" for better Mobile displays 
                     <iframe class="youtube-fluid"
                         src="https://www.youtube.com/embed/videoseries?si=OVuT-LTDjfbi9uiW&amp;list=PLPYqMN5r-t3hDvIEYtjIl4Md1gKchoL0u" 
                         title="Halo Video Project Playlist YouTube Video Player" 
@@ -268,49 +303,7 @@
                         title="Godzilla: King of the Monsters (2019) Video Project Playlist YouTube Video Player" 
                             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                             class="iframe_placement" allowfullscreen>
-                    </iframe>
-                    <!--Commment out other YouTube Videos to test out YouTube Playlist embebed
-                    <iframe class="youtube-fluid"
-                        src="https://www.youtube.com/embed/p4jNTTvsmfI" title="Over the Ark | Halo 3: 15th Anniversary Trailer" 
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            class="iframe_placement" allowfullscreen>
-                    </iframe>
-                    <iframe class="youtube-fluid"
-                        src="https://www.youtube.com/embed/44ce_D3kqXM" title="Finish the Fight | 20 Years of Halo" 
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            class="iframe_placement" allowfullscreen>
-                    </iframe>
-                    <iframe class="youtube-fluid" 
-                        src="https://www.youtube.com/embed/LyLVceTXx6s" title="Go Go Godzilla (2019)" 
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            class="iframe_placement" allowfullscreen>
-                    </iframe>
-                    <iframe class="youtube-fluid" 
-                        src="https://www.youtube.com/embed/Tej20e0GpQ0" title="Halo 4 - Live and Die (Godzilla: The Planet Eater)" 
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            class="iframe_placement" allowfullscreen>
-                    </iframe>
-                    <iframe class="youtube-fluid" 
-                        src="https://www.youtube.com/embed/-Px15dPAY38" title="Titan Alpha (Godzilla: King of the Monsters Fan-Made TV Spot)" 
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            class="iframe_placement" allowfullscreen>
-                    </iframe>
-                    <iframe class="youtube-fluid" 
-                        src="https://www.youtube.com/embed/-t_WxLfsORw" title="Monster Zero (Godzilla: King of the Monsters Fan-Made TV Spot)" 
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                             class="iframe_placement" allowfullscreen>
-                    </iframe>
-                    <iframe class="youtube-fluid" 
-                        src="https://www.youtube.com/embed/J57dO9oUZdo" title="One Born in Fire (Godzilla: King of the Monsters Fan-Made TV Spot)" 
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            class="iframe_placement" allowfullscreen>
-                    </iframe>
-                    <iframe class="youtube-fluid"
-                        src="https://www.youtube.com/embed/qkkfj66s9Bk" title="Queen of the Monsters (Godzilla: King of the Monsters Fan-Made TV Spot)" 
-                            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                            class="iframe_placement" allowfullscreen>
-                    </iframe>-->
-                        
+                    </iframe>  
                     <iframe class="youtube-fluid"
                         src="https://www.youtube.com/embed/VQu0bE15tlQ?si=G-EUt3vSWViRfgwy" 
                             title="Jeff Wayne's The War of the Worlds CGI Film (2005) - Animation & Concept Art" 
@@ -324,19 +317,9 @@
                             class="iframe_placement" allowfullscreen>
                     </iframe>
                     <br>
-                    <br>
-                    <!--Artwork Portfolio-->
-                    <h2 class="mb-3" id="artwork">Artwork</h2>
-                        <!--Create a CSS style that sets vertical poster artwork picture sizes to width="380" and height="577" for better Mobile displays--> 
-                        <a href="assets/img/portfolio/Godzilla_KotM_Rising_Sun_Poster.jpg" title="Godzilla_Poster_1" target="_self">
-                            <img src="assets/img/portfolio/Godzilla_KotM_Rising_Sun_Poster.jpg" alt="Godzilla_rising_sun_poster" 
-                             id="overlay" loading="lazy" class="img_placement vertical_poster_size"/>
-                        </a>
-                        <a href="assets/img/portfolio/Godzilla_KotM_Clash_of_Titans_Poster.jpg" title="Godzilla_Poster_2" target="_self">
-                            <img src="assets/img/portfolio/Godzilla_KotM_Clash_of_Titans_Poster.jpg" alt="Rodan_Mothra_King_Ghidorah_poster"
-                             id="overlay" loading="lazy" class="img_placement vertical_poster_size"/>
-                        </a>
-                        <!--Create a CSS style that sets horizontal poster artwork picture sizes to width="560" and height="450" for better Mobile displays--> 
+                    <br>-->
+                        <!--<h3 class="mb-3">Creative Graphic Design Projects</h3>
+                        Create a CSS style that sets horizontal poster artwork picture sizes to width="560" and height="450" for better Mobile displays
                         <a href="assets/img/portfolio/Gravemind_Toho_Style.jpg" title="Retro_Halo_2_Poster" target="_self">
                             <img src="assets/img/portfolio/Gravemind_Toho_Style.jpg" alt="retro_monster_movie_Halo 2_poster" 
                              width="579" height="466" id="overlay" loading="lazy" class="img-fluid img_placement horizontal_poster_size"/>
@@ -352,13 +335,12 @@
                         <a href="assets/img/portfolio/The_Return_of_ODST.jpg" title="Halo_3_ODST_Poster" target="_self">
                             <img src="assets/img/portfolio/The_Return_of_ODST.jpg" alt="Halo_3_odst_poster" 
                              id="overlay" loading="lazy" class="img_placement vertical_poster_size"/>
-                        </a>
+                        </a>-->
                 </div>
             </section>
-            <hr class="m-0" />
-        </div>
+        </main>
         <footer class="footer">
-            <p class="footer">Copyright 2025<br>
+            <p class="footer">Copyright 2026<br>
             </p>
           </footer>
         <!-- Bootstrap core JS-->
