@@ -11019,7 +11019,7 @@ footer{
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
-    border: thick solid #343a40;
+    border: thick solid #E6CFFC; /*#343a40*/
   }
 
 #overlay:hover, #overlay:focus{
