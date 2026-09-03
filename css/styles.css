@@ -11065,10 +11065,14 @@ iframe {
 /*End of Test*/
 .meeting-btn {
 	background-color: #5C07AC;
-    color: #E6CFFC;	
-    padding: 0.5rem;
+    color: #E6CFFC;
+	text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+	font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    padding: 1rem;
     margin: 1.5rem;
-    border-radius: 10%;
+    border-radius: 50%;
     font-size: 1.5rem;
 }
 .meeting-btn:hover, .meeting-btn:focus {
