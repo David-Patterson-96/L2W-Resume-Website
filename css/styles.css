@@ -11125,8 +11125,8 @@ iframe {
 }
 /*Test styles for mobile display of YouTube and large picture elements*/
 @media (max-width: 430px) {
-  .youtube-fluid, .vertical_poster_size{
-    max-width: 100%;
+  .webstore-thumbnail-fluid, .youtube-fluid, .vertical_poster_size{
+    max-width: stretch;
     height: auto;
   }
 }
