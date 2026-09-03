@@ -11063,6 +11063,19 @@ iframe {
 	border: #fff;
 }
 /*End of Test*/
+.meeting-btn {
+	background-color: #5C07AC;
+    color: #E6CFFC;	
+    padding: 0.5rem;
+    margin: 1.5rem;
+    border-radius: 10%;
+    font-size: 1.5rem;
+}
+.meeting-btn:hover, .meeting-btn:focus {
+	background-color: #E6CFFC;
+    color: #5C07AC;	
+}
+
 .webstore-thumbnail-fluid{
 	width: 400px;
 }
